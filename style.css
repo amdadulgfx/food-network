@@ -11,14 +11,13 @@ body{
 .flex-container h1{
     font-size: 50px;
 }
-/* .flex-container a{
-    text-decoration: none;
-    padding-left: 20px;
-} */
 .navbar{
     display: flex;
-    position: relative;
+    /* position: relative; */
     margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+
 }
 .navbar li{
     display: inline-block;
