@@ -11,6 +11,33 @@ body{
 .flex-container h1{
     font-size: 50px;
 }
+/* .flex-container a{
+    text-decoration: none;
+    padding-left: 20px;
+} */
+.navbar{
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: #F088D1;
+}
+.navbar img{
+    width: 10%;
+    padding-left: 10%;
+}
+#signup-btn{
+    background-color: #F088D1;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
 .light-pink{
     color: #F088D1;
 }
@@ -84,6 +111,23 @@ body{
 }
 .social-follower h1{
     color: black;
+}
+#signup-form{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
+.submit-btn{
+    padding: 10px 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+form{
+    display: block;
+    background-color:#F2F2F2 ;
 }
 
 footer{
