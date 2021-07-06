@@ -85,3 +85,14 @@ body{
 .social-follower h1{
     color: black;
 }
+
+footer{
+    text-align: center;
+    background-color: #0B0E17;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+footer p{
+    color: white;
+    font-size: 18px;
+}
