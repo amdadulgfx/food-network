@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 .flex-container{
     display: flex;
@@ -8,7 +8,7 @@ body{
     align-items: center;
 }
 .flex-container h1{
-    font-size: 60px;
+    font-size: 50px;
 }
 .light-pink{
     color: #F088D1;
