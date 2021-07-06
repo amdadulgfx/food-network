@@ -55,7 +55,7 @@ body{
 }
 .card-item{
     width: 33.33%;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.3);
     margin: 2%;
     border-radius: 40px;
     text-align: left;
@@ -65,6 +65,23 @@ body{
     width: 90%;
     margin: 5%;
 }
-.card-item h3,p{
+.card-item h3, .card-item p{
     padding-left: 5%;
+    color: black;
+}
+.social-hype{
+    display: flex;
+    margin:7%;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.3);
+    border-radius: 30px;
+}
+.social-follower{
+    padding: 20px 40px;
+    font-size: 30px;
+    text-align: left;
+}
+.social-follower h1{
+    color: black;
 }
