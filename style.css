@@ -8,8 +8,7 @@ body{
     align-items: center;
 }
 .flex-container h1{
-    font-size: 70px;
-    /* font-weight: 700px; */
+    font-size: 60px;
 }
 .light-pink{
     color: #F088D1;
@@ -26,8 +25,23 @@ body{
     color: white;
     background-image: linear-gradient(to right,#F088D1,#EF34B5);
     text-decoration: none;
-    padding: 15px 30px;
+    padding: 25px 30px;
     font-weight: 700;
     border-radius: 50px;
     margin-top: 35px;
+}
+.section-bg{
+    background-image: url(img/raw-bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#about-img{
+    width: 70%;
+    margin-top: 150px;
+    padding-left: 50px;
+}
+#about-paragraph{
+    margin-right: 100px;
+    text-align: justify;
 }
