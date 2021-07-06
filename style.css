@@ -1,0 +1,33 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.flex-container{
+    display: flex;
+    margin: 5%;
+    align-items: center;
+}
+.flex-container h1{
+    font-size: 75px;
+    /* font-weight: 700px; */
+}
+.light-pink{
+    color: #F088D1;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 50px;
+}
+.pink-btn{
+    display: inline-block;
+    color: white;
+    background-image: linear-gradient(to right,#F088D1,#EF34B5);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 50px;
+    margin-top: 35px;
+}
